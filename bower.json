@@ -1,0 +1,53 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "modernizr": "2.8.2",
+    "jquery": "1.11.2",
+    "font-awesome": "~4.3.0",
+    "bootstrap": "~3.3.4"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "./modernizr.js"
+    },
+    "bootstrap": {
+      "main": [
+        "./less/bootstrap.less",
+        "./js/transition.js",
+        "./js/alert.js",
+        "./js/button.js",
+        "./js/carousel.js",
+        "./js/collapse.js",
+        "./js/dropdown.js",
+        "./js/modal.js",
+        "./js/tooltip.js",
+        "./js/popover.js",
+        "./js/scrollspy.js",
+        "./js/tab.js",
+        "./js/affix.js",
+        "./fonts/glyphicons-halflings-regular.eot",
+        "./fonts/glyphicons-halflings-regular.svg",
+        "./fonts/glyphicons-halflings-regular.ttf",
+        "./fonts/glyphicons-halflings-regular.woff",
+        "./fonts/glyphicons-halflings-regular.woff2"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "./less/font-awesome.less",
+        "./fonts/FontAwesome.otf",
+        "./fonts/fontawesome-webfont.eot",
+        "./fonts/fontawesome-webfont.svg",
+        "./fonts/fontawesome-webfont.ttf",
+        "./fonts/fontawesome-webfont.woff",
+        "./fonts/fontawesome-webfont.woff2"
+      ]
+    }
+  }
+}
