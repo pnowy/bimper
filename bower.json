@@ -10,7 +10,8 @@
     "modernizr": "2.8.2",
     "jquery": "1.11.2",
     "font-awesome": "~4.3.0",
-    "bootstrap": "~3.3.4"
+    "bootstrap": "~3.3.4",
+    "lesshat": "~3.0.2"
   },
   "overrides": {
     "modernizr": {
