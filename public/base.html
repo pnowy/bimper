@@ -18,7 +18,8 @@
 
       <div class="starter-template">
         <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <p class="lead">Use this document as a way to quickly start any new project.<br>
+            All you get is this text and a mostly barebones HTML document with PHP templating.</p>
         <h2>Icons</h2>
         <p><i class="fa fa-rocket"></i></p>
           <div class="text-justify" >
@@ -63,15 +64,7 @@
 
     </div><!-- /.container -->
 
-    <footer class="footer">
-        <div class="container">
-            <p class="text-muted">
-                <a href="http://oneslashtoofar.com" target="_blank" >See more</a>
-                &nbsp;|&nbsp;
-                <a href="https://github.com/pnowy/bimper" target="_blank" >Github repo</a>
-            </p>
-        </div>
-    </footer>
+    {% include 'footer.html' %}
 
     <script type='text/javascript' src='resources/scripts/jquery.js'></script>
     <script type='text/javascript' src='resources/scripts/main.js'></script>
