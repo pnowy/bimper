@@ -10,7 +10,7 @@ in order to support templating by [Twig library](http://twig.sensiolabs.org/doc/
 
 From the command line:
 
-1. Copy the git repository to the local machine.
+1. Clone the git repository to the local machine: `git clone git@github.com:pnowy/bimper.git bimper`
 2. Install [gulp](http://gulpjs.com) and [Bower](http://bower.io/) globally with `npm install -g gulp bower`
 3. Navigate to the theme directory, then run `npm install`
 4. Run `bower install`
