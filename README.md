@@ -43,3 +43,5 @@ I suggest the [XAMPP](https://www.apachefriends.org/) as PHP server. You will fi
 on the [Twig page](http://twig.sensiolabs.org/doc/api.html).
 
 The Twig library has been added directly to the repo in order to avoid the manual installation or by composer installation.
+
+#### [See more at http://oneslashtoofar.com](http://oneslashtoofar.com/2015/04/26/setting-up-gulp-bower-bootstrap-less-browser-sync-with-php-templating/)
